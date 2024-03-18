@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+   
+  align-items: center;
+  justify-content: center;
+margin-left: 45%;
+margin-top: 20%;
+ 
+  }
+
+  
+  button{
+    
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  border: 5px solid white;
+
+  box-shadow: 0 0 2px white, 0 0 2px white, 0 0 6px white, inset 0 0 4px white;
+  text-shadow: 0 0 0.125em white, 0 0 0.35em whitesmoke, 0 0 0.6em white;
+  animation: flicker 2s ease-in-out infinite alternate;
+}
+
+@keyframes flicker { 
+    0%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100%{
+        box-shadow: 0 0 2px white, 0 0 2px white, 0 0 6px white, inset 0 0 4px white;
+        text-shadow: 0 0 0.125em white, 0 0 0.35em whitesmoke, 0 0 0.6em white;
+    }
+   20%,
+   24%,
+   55%{
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, inset 0 0 3px white;
+    text-shadow: 0 0 0.125em white, 0 0 0.2em whitesmoke, 0 0 0.47em white;
+   } 
+}
+   
+  
